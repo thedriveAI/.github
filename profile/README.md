@@ -1,8 +1,5 @@
 <a href="https://thedrive.ai">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://thedrive.ai/og-image.png">
-    <img src="https://thedrive.ai/og-image.png" alt="The Drive AI" width="100%">
-  </picture>
+  <img src="https://dev.thedrive.ai/thedrive.ai" alt="The Drive AI" width="100%">
 </a>
 
 <p align="center">
@@ -20,9 +17,9 @@
 
 We built The Drive AI because managing files is broken. People spend hours every week renaming, sorting, and searching for documents — work that adds zero value. We believe AI should handle all of it.
 
-**The Drive AI is an agentic workspace that manages your files for you.** Upload a document, and it reads the content — not just the filename — then automatically renames, tags, and organizes it. Search by asking questions in plain English. Extract data, analyze contracts, cross-reference invoices — all without leaving the workspace.
+**The Drive AI is an agentic workspace that manages your files for you.** It reads the content of every document — not just the filename — and automatically renames, tags, and organizes it. But it goes beyond organization: AI file agents can create, share, move, delete, transform, and analyze your documents through plain English commands. Ask it to summarize a contract, merge three PDFs, send a file for e-signature, or cross-reference an invoice against a purchase order — and it just does it.
 
-We started with a simple idea: what if your file system understood what was inside your files?
+We started with a simple idea: what if your file system understood what was inside your files, and could act on them?
 
 That led to two products:
 
@@ -34,16 +31,19 @@ That led to two products:
 
 **AI-powered document workspace**
 
-<img src="https://dev.thedrive.ai/thedrive.ai" alt="The Drive AI — AI-powered document workspace" width="100%" style="border-radius: 8px;">
+<picture>
+  <img src="https://dev.thedrive.ai/thedrive.ai" alt="The Drive AI — AI-powered document workspace" width="100%">
+</picture>
 
-Upload, organize, search, and understand any file using plain English. The Drive AI reads every document you upload — PDFs, spreadsheets, images, scanned files, audio, video — and handles the filing, naming, and tagging automatically.
+An AI workspace with file agents that can create, organize, search, share, transform, and analyze your documents — all through plain English. It works across PDFs, spreadsheets, images, scanned files, audio, and video.
 
-- Auto-organization that learns your patterns
-- Natural language search across all your files
-- Chat with your documents, ask questions, get answers
-- Team collaboration with granular permissions
-- Email attachment integration (Gmail, Outlook)
-- Electronic signatures and file requests
+- **File agents** — create, move, rename, merge, delete, and share files via natural language
+- **Auto-organization** that reads content and learns your patterns
+- **Semantic search** — ask questions across all your files, get cited answers
+- **Document actions** — summarize, extract data, compare, transform
+- **E-signatures** (ESIGN Act compliant) and file request links
+- **Integrations** — Gmail, Outlook, Google Drive, OneDrive, Dropbox, Slack
+- **Everywhere** — web, macOS, iOS, and Android
 
 **For:** Teams in real estate, law, accounting, HR, and education who are drowning in documents.
 
@@ -56,7 +56,9 @@ Upload, organize, search, and understand any file using plain English. The Drive
 
 **File intelligence endpoints for developers**
 
-<img src="https://dev.thedrive.ai/dev.thedrive.ai" alt="The Drive AI Developer API" width="100%" style="border-radius: 8px;">
+<picture>
+  <img src="https://dev.thedrive.ai/dev.thedrive.ai" alt="The Drive AI Developer API" width="100%">
+</picture>
 
 The file intelligence layer that powers our workspace — now available as public API endpoints. Extract structured data, analyze documents, cross-reference files, convert to markdown, and generate thumbnails from any file or URL.
 
