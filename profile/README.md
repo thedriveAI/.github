@@ -130,6 +130,6 @@ print(result.data)  # {"vendor": "Acme Corp", "total": 4250.00}
 
 ## Contact
 
-- **Support:** support@thedrive.ai
+- **Support:** contact@thedrive.ai
 - **Website:** [thedrive.ai](https://thedrive.ai)
 - **Developer API:** [dev.thedrive.ai](https://dev.thedrive.ai)
